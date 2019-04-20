@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\TB\\Desktop\\class\\CSC210\\assignment-5-word-play-CallmeB\\WordPlay\\WordPlay.csproj",
+  "TargetFramework": "netcoreapp2.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+﻿@page
+<div class="d-flex justify-content-around">
+    <div class="d-flex flex-column justify-content-start">
+        User:<input type="text" id = "user">
+        Task: <input type="text" name="lname" id = "task">
+        Assigned To: <input type="text" id = "target">
+        <button class = "m-5" id = "sendButton" > Send Task</button>
+    </div>
+    <div>
+        <ul class="list-group" id = "board">
+        </ul>
+    </div>
+</div>
+<script src="~/lib/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/site.js"></script>

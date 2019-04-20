@@ -1,0 +1,14 @@
+c:\Users\TB\Desktop\class\CSC210\assignment-7-ef-bank-CallmeB\BankAPI\bin\Debug\netcoreapp2.2\BankAPI.deps.json
+c:\Users\TB\Desktop\class\CSC210\assignment-7-ef-bank-CallmeB\BankAPI\bin\Debug\netcoreapp2.2\BankAPI.runtimeconfig.json
+c:\Users\TB\Desktop\class\CSC210\assignment-7-ef-bank-CallmeB\BankAPI\bin\Debug\netcoreapp2.2\BankAPI.runtimeconfig.dev.json
+c:\Users\TB\Desktop\class\CSC210\assignment-7-ef-bank-CallmeB\BankAPI\bin\Debug\netcoreapp2.2\BankAPI.dll
+c:\Users\TB\Desktop\class\CSC210\assignment-7-ef-bank-CallmeB\BankAPI\bin\Debug\netcoreapp2.2\BankAPI.pdb
+c:\Users\TB\Desktop\class\CSC210\assignment-7-ef-bank-CallmeB\BankAPI\obj\Debug\netcoreapp2.2\BankAPI.csprojAssemblyReference.cache
+c:\Users\TB\Desktop\class\CSC210\assignment-7-ef-bank-CallmeB\BankAPI\obj\Debug\netcoreapp2.2\BankAPI.csproj.CoreCompileInputs.cache
+c:\Users\TB\Desktop\class\CSC210\assignment-7-ef-bank-CallmeB\BankAPI\obj\Debug\netcoreapp2.2\BankAPI.RazorAssemblyInfo.cache
+c:\Users\TB\Desktop\class\CSC210\assignment-7-ef-bank-CallmeB\BankAPI\obj\Debug\netcoreapp2.2\BankAPI.RazorAssemblyInfo.cs
+c:\Users\TB\Desktop\class\CSC210\assignment-7-ef-bank-CallmeB\BankAPI\obj\Debug\netcoreapp2.2\BankAPI.AssemblyInfoInputs.cache
+c:\Users\TB\Desktop\class\CSC210\assignment-7-ef-bank-CallmeB\BankAPI\obj\Debug\netcoreapp2.2\BankAPI.AssemblyInfo.cs
+c:\Users\TB\Desktop\class\CSC210\assignment-7-ef-bank-CallmeB\BankAPI\obj\Debug\netcoreapp2.2\BankAPI.RazorTargetAssemblyInfo.cache
+c:\Users\TB\Desktop\class\CSC210\assignment-7-ef-bank-CallmeB\BankAPI\obj\Debug\netcoreapp2.2\BankAPI.dll
+c:\Users\TB\Desktop\class\CSC210\assignment-7-ef-bank-CallmeB\BankAPI\obj\Debug\netcoreapp2.2\BankAPI.pdb

@@ -1,0 +1,5 @@
+Sum of input words: 1
+Sum of all characters in input: 7
+Palindromes: 
+Not Palindromes: alabama 
+That wasn't a multiple words palindrome.

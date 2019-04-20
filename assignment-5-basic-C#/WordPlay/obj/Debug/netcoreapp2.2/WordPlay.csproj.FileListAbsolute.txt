@@ -1,0 +1,11 @@
+C:\Users\TB\Desktop\class\CSC210\assignment-5-word-play-CallmeB\WordPlay\bin\Debug\netcoreapp2.2\WordPlay.deps.json
+C:\Users\TB\Desktop\class\CSC210\assignment-5-word-play-CallmeB\WordPlay\bin\Debug\netcoreapp2.2\WordPlay.runtimeconfig.json
+C:\Users\TB\Desktop\class\CSC210\assignment-5-word-play-CallmeB\WordPlay\bin\Debug\netcoreapp2.2\WordPlay.runtimeconfig.dev.json
+C:\Users\TB\Desktop\class\CSC210\assignment-5-word-play-CallmeB\WordPlay\bin\Debug\netcoreapp2.2\WordPlay.dll
+C:\Users\TB\Desktop\class\CSC210\assignment-5-word-play-CallmeB\WordPlay\bin\Debug\netcoreapp2.2\WordPlay.pdb
+C:\Users\TB\Desktop\class\CSC210\assignment-5-word-play-CallmeB\WordPlay\obj\Debug\netcoreapp2.2\WordPlay.csprojAssemblyReference.cache
+C:\Users\TB\Desktop\class\CSC210\assignment-5-word-play-CallmeB\WordPlay\obj\Debug\netcoreapp2.2\WordPlay.csproj.CoreCompileInputs.cache
+C:\Users\TB\Desktop\class\CSC210\assignment-5-word-play-CallmeB\WordPlay\obj\Debug\netcoreapp2.2\WordPlay.AssemblyInfoInputs.cache
+C:\Users\TB\Desktop\class\CSC210\assignment-5-word-play-CallmeB\WordPlay\obj\Debug\netcoreapp2.2\WordPlay.AssemblyInfo.cs
+C:\Users\TB\Desktop\class\CSC210\assignment-5-word-play-CallmeB\WordPlay\obj\Debug\netcoreapp2.2\WordPlay.dll
+C:\Users\TB\Desktop\class\CSC210\assignment-5-word-play-CallmeB\WordPlay\obj\Debug\netcoreapp2.2\WordPlay.pdb

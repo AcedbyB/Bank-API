@@ -1,0 +1,16 @@
+div {
+    background-color: lightblue;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.displayClass{
+    display: block
+}
+
+body {
+    background: lightblue;
+}
