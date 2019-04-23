@@ -11,6 +11,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.SignalR;
+using FinalProject.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace FinalProject
 {
@@ -27,15 +29,13 @@ namespace FinalProject
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //     services.AddDbContext<GamerDbContext>(options =>
-            // options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
+            // services.AddDbContext<GamerDbContext>(opt => opt.UseInMemoryDatabase("TodoList"));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddSignalR();
@@ -55,6 +55,7 @@ namespace FinalProject
                 app.UseHsts();
             }
 
+            app.UseDefaultFiles();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();

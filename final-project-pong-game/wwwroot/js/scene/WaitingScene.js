@@ -6,7 +6,8 @@ class WaitingScene extends Phaser.Scene {
     }
 
     preload() {
-        let src = '../assets/kitchen/';
+        let src = '../assets/' + theme + '/';
+        console.log(theme);
         this.load.image('background', src + 'background.png');
 
         this.load.image('msg1', '../assets/waiting/msg.png');

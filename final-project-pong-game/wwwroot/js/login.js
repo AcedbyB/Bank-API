@@ -1,42 +1,40 @@
+function getInput() {
+    let username = $("#username").val();
+    let password = $("#password").val();
+    return {username, password};
+}
 
-document.getElementById("join").addEventListener("click", function (event) {
-    var data = null;
-    console.log("join");
-    var room = document.getElementById("room").value;
-    console.log(document.getElementById("room").value);
+$("#login-btn").click(function() {
+    let {username, password} = getInput();
     var xhr = new XMLHttpRequest();
     xhr.addEventListener("readystatechange", function () {
         if (this.readyState === 4) {
-            console.log(this.responseText);
-            data = JSON.parse(this.response);
-            if (data.piles.pile == 0) {
-                console.log("has not lost");
+            if (this.status == 400) {
+                alert(this.responseText);
             }
-            else {
-                console.log("has lost!!");
+            if (this.status == 200) {
+                window.open("/test", "_self");
             }
         }
     });
-    xhr.open("GET", "test/gamer/" + room);
-    xhr.send(data);
+    xhr.open("GET", "api/Login/" + username + "/" + password + "/login"); //link to api login
+    xhr.send();
 });
 
-document.getElementById("create").addEventListener("click", function (event) {
-    // var data = null;
-    console.log("create")
+
+$("#signup-btn").click(function() {
+    let {username, password} = getInput();
     var xhr = new XMLHttpRequest();
     xhr.addEventListener("readystatechange", function () {
         if (this.readyState === 4) {
-            console.log(this.responseText);
-            data = JSON.parse(this.response);
-            if (data.piles.pile == 0) {
-                console.log("has not lost");
+            if (this.status == 400) {
+                alert(this.responseText);
             }
-            else {
-                console.log("has lost!!");
+            if (this.status == 200) {
+                window.open("/test", "_self");
             }
         }
     });
-    xhr.open("POST", "api/Gamer/" + room);
+    xhr.open("GET", "api/Login/" + username + "/" + password + "/create"); //link to api signup
     xhr.send();
 });
